@@ -1,0 +1,127 @@
+
+.fixed-top{
+	position: fixed;
+	right: 0px;
+	top: 0px;
+	left: 0px;
+	z-index: 1030;
+	}
+/*KERANGKA*/
+#contener{
+	background: #FFF;
+	}
+#header{
+	background-color: #FFF;
+	padding-left: 2%;
+} 
+.menu{
+	background-color: #00BAFF;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	heiht: 20px;
+}
+#content{
+	padding: 4%;
+	background-color: #FFF;
+	overflow: auto;
+	
+}
+#sidebar{
+	padding-left: 2%;
+	background-color: #FFF;
+}
+#footer{
+	background-color: #00BAFF;
+	padding: 2%;
+	text-align: center;
+}
+kontak{
+	background-color: #00BAFF;
+	text-align: center;
+	}
+/*AKHIR KERANGKA*/
+.header-left{ float: left; width: 30%; }
+.header-center{ float: left; width: 40%; }
+.header-right{ float: left; width: 30%; }
+
+.button { border-radius: 0px; }
+
+.button:focus { outline: -webkit-focus-ring-color auto 5px; }
+
+.navbar-toggler-icon {
+display: inline-block;
+width: 1.5em;
+height: 1.5em;
+vertical-align: middle;
+content: "";
+background: center center / 100% 100% no-repeat;
+}
+
+.navbar-toggler-icon {
+background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSczMCcgaGVpZ2h0PSczMCcgdmlld0JveD0nMCAwIDMwIDMwJz48cGF0aCBzdHJva2U9J3JnYmEoMCwgMCwgMCwgMC41KScgc3Ryb2tlLWxpbmVjYXA9J3JvdW5kJyBzdHJva2UtbWl0ZXJsaW1pdD0nMTAnIHN0cm9rZS13aWR0aD0nMicgZD0nTTQgN2gyMk00IDE1aDIyTTQgMjNoMjInLz48L3N2Zz4=");
+}
+
+.navbar-toggler {
+padding: 0.25rem 0.75rem;
+font-size: 1.25rem;
+line-height: 1;
+background-color: transparent;
+border: 1px solid transparent;
+border-radius: 0.25rem;
+}
+nav{
+	boder: solid 1px;
+	width: auto;
+	display: block;
+	text-align: center;
+	}
+.search{
+	margin: 2%;
+	background-color: #00BAFF;
+	color: #FFF;
+	font-size: 70%;
+	text-align: right;
+	}
+svg { vertical-align: middle; }
+input.ssearch{
+	width: 50%;
+	}
+/*LINK*/
+a.a{
+	margin: 2%;
+	background-color: #00BAFF;
+	color: #FFF;
+	font-size: 70%;
+	}
+a.text{
+	color: #FFF;
+	}
+a.visit{
+	margin: 2%;
+	color: #000;
+	font-weight: bold;
+	font-size: 80%;
+	}
+a{
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #000;
+	font-weight: bold;
+}
+a:active {
+	background-color: #000;
+	color: #FFF;
+}
+/*AKHIR LINK*/
+h2.myweb{
+	font-family: cursive;
+	margin: 2%;
+}
+ul li{
+	margin: 1%;
+	font-size: 105%;
+	}
